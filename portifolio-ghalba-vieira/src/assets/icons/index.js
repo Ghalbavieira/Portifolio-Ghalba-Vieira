@@ -1,0 +1,13 @@
+export { default as htmlIcon } from './html5.svg';
+export { default as cssIcon } from './css3.svg';
+export { default as jsIcon } from './javascript.svg';
+export { default as bootstrapIcon } from './bootstrap.svg';
+export { default as jqueryIcon } from './jquery.svg';
+export { default as reactIcon } from './react.svg';
+export { default as tailwindcssIcon } from './tailwindcss.svg';
+export { default as nextdotjsIcon } from './nextdotjs.svg';
+export { default as firebaseIcon } from './firebase.svg';
+export { default as gitIcon } from './git.svg';
+export { default as githubIcon } from './github.svg';
+export { default as mysqlIcon } from './mysql.svg';
+export { default as amazonwebservicesIcon } from './amazonwebservices.svg';

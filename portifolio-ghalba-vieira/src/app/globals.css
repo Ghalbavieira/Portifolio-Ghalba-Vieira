@@ -51,7 +51,7 @@
     --radius: 0.5rem;
   }
   .dark {
-    --background: 222.2 84% 4.9%;
+    --background: #1E2939;
     --foreground: 210 40% 98%;
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;
@@ -84,5 +84,65 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+
+body{
+  background-color: #1E2939;
+}
+
+.animate-animar-cursor {
+  display: inline-block;
+  width: 2px;
+  background-color: white;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.typing-container {
+  display: inline;
+}
+
+
+.title{
+  font-size: 1.5rem;
+}
+/*Underline effect*/
+.underline-effect {
+  position: relative;
+  display: inline-block;
+  opacity:6;
+  padding-bottom: 0.5rem; 
+}
+
+.underline-effect::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px; 
+  background-color: orange;
+  transition: width 0.3s ease; 
+}
+
+.underline-effect:hover::after {
+  width: 100%;
+}
+
+/*Underline effect*/
+
+
+
+
+@media screen (min-width: 768px){
+  .title{
+    font-size: 2.5rem;
   }
 }
