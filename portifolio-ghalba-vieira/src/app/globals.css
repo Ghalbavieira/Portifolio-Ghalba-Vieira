@@ -138,11 +138,41 @@ body{
 
 /*Underline effect*/
 
+.wrapper-img {
+  height: 350px;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+}
+
+.imgcode  {
+  object-fit: cover;
+  border-radius: 10px;
+  border: 5px solid transparent;
+  background: linear-gradient(white, white) padding-box, 
+              linear-gradient(45deg, #f06, #ffdd00) border-box;
+}
+
+.wrapper-img:hover .imgcode  {
+  border: 5px solid transparent;
+  background: linear-gradient(white, white) padding-box, 
+              linear-gradient(45deg, #00ffff, #ff00ff) border-box;
+}
+
+.imgcode {
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+  transition: transform 0.3s ease-in-out;
+}
 
 
-
-@media screen (min-width: 768px){
+@media (min-width: 768px){
   .title{
     font-size: 2.5rem;
+  }
+
+  .wrapper-img {
+    width: 400px;
   }
 }

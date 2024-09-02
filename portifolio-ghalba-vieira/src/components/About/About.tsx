@@ -7,9 +7,9 @@ import "../About/about.css";
 
 export function AboutSection() {
     return(
-        <section className="text-center text-white mt-10">
+        <section className="bg-slate-200 text-center text-sky-900 pt-10 px-30">
             <h2 className="title underline-effect mb-10"><strong>Sobre Mim</strong></h2>
-            <div className='flex justify-around content-center flex-wrap align-middle mb-20'>
+            <div className='flex justify-around content-center flex-wrap align-middle pb-20 px-4'>
                 <div className="text-center md:text-left break-words max-w-96 animate-fadeIn">
                     <h3 className="my-3 text-2xl text-teal-600"><strong>Quem sou eu?</strong></h3>
                     <p className="my-1">Desenvolvedora Front-End com 5 anos de experiência em criação de sites, landing pages e e-commerces. </p>
@@ -129,12 +129,6 @@ export function AboutSection() {
                                 </TooltipProvider>
                             </div>
                         </div>
-                </div>
-                <div className='max-w-96 text-left content-center flex-wrap align-middle animate-fadeIn'>
-                    <p> Custom Website Development</p>
-                    <p> Responsive Design</p>
-                    <p> User-Friendly Interface</p>
-                    <p> Performance Optimization</p>
                 </div>
             </div>
         </section>
