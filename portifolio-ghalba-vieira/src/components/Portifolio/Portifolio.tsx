@@ -3,20 +3,25 @@ import Image from 'next/image';
 import programming from '@/assets/images/programming.jpg';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@radix-ui/react-tooltip";
 import { amazonwebservicesIcon, bootstrapIcon, cssIcon, firebaseIcon, githubIcon, gitIcon, htmlIcon, jqueryIcon, jsIcon, mysqlIcon, nextdotjsIcon, reactIcon, tailwindcssIcon } from "@/assets/icons";
+import { Button } from "../ui/button";
 
 export function Portifolio() {
-    return(
-        <section className="text-center text-slate-400 py-28">
-        <h2 className="title underline-effect text-center"><strong>Projetos</strong></h2>
-          <div className="max-w-full flex justify-center content-center pt-20">
+    return(<>
+        <section className="bg-slate-200 text-center text-slate-400 py-16 md:py-28 mt-24 md:mt-48">
+        <h2 className="title underline-effect text-center text-sky-900"><strong>Projetos</strong></h2>
+          <div className="max-w-full flex justify-center content-center pt-10 md:pt-20">
             <Carousel>
               <CarouselContent aria-roledescription="carousel">
                 <CarouselItem>
-                  <div className="md:flex justify-around content-center">
+                  <div className="md:flex justify-around content-center text-sky-900">
                       <Image src={programming} alt="imagem codigos" width={300} height={350} className="imgcode inline"/>
                     <div>
                       <h3>Nome do Projeto</h3>
                       <p></p>
+                      <div>
+                        <Button>Github</Button>
+                        <Button>Sistema</Button>
+                      </div>
                     </div>
                     <div>
                       <h3>Tecnologias utilizadas</h3>
@@ -161,5 +166,6 @@ export function Portifolio() {
             </Carousel>
           </div>
       </section>
+      </>
     );
 }

@@ -7,14 +7,14 @@ export function Header() {
     return (
         <header className="bg-gray-600 h-20 text-white text-xl flex content-center justify-around flex-wrap">
             <h1 className="text-2xl">Ghalba Vieira</h1>
-            <div className=" hidden md:flex">
+            <div className=" hidden md:flex flex gap-4">
                 <nav className="cursor-pointer flex gap-x-8">
                     <a href="/" className="underline-effect">Home</a>
                     <a href="/about" className="underline-effect">Sobre Mim</a>
                     <a href="" className="underline-effect">Portifolio</a>
                     <a href="" className="underline-effect">Contato</a>
                 </nav>
-                <Button></Button>
+                <Button> Curriculo </Button> 
             </div>
             <div className="visible md:hidden justify-start">
             <Sheet>

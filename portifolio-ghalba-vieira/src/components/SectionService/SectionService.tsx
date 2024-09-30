@@ -7,8 +7,8 @@ export function SectionService(){
     return (
         <section className="text-center ">
             <h2 className="title underline-effect my-10 text-white text-center"><strong>Serviços</strong></h2>
-            <div className="md:flex justify-around mb-8 ">
-                <Card>
+            <div className="md:flex gap-10 justify-center">
+                <Card className="m-10">
                     <CardHeader>
                         <CardTitle>Card Title</CardTitle>
                         <CardDescription> <Image src={programming} alt="imagem codigos" width={300} height={300} className="imgcode"/></CardDescription>
@@ -16,12 +16,8 @@ export function SectionService(){
                     <CardContent>
                         <p>Card Content</p>
                     </CardContent>
-                    <CardFooter className="Flex justify-around">
-                        <Button>Github</Button>
-                        <Button>Sistema</Button>
-                    </CardFooter>
                 </Card>
-                <Card>
+                <Card className="m-10">
                     <CardHeader>
                         <CardTitle>Card Title</CardTitle>
                         <CardDescription> <Image src={programming} alt="imagem codigos" width={300} height={300} className="imgcode"/></CardDescription>
@@ -29,12 +25,8 @@ export function SectionService(){
                     <CardContent>
                         <p>Card Content</p>
                     </CardContent>
-                    <CardFooter className="Flex justify-around">
-                        <Button>Github</Button>
-                        <Button>Sistema</Button>
-                    </CardFooter>
                 </Card>
-                <Card>
+                <Card className="m-10">
                     <CardHeader>
                         <CardTitle>Card Title</CardTitle>
                         <CardDescription> <Image src={programming} alt="imagem codigos" width={300} height={300} className="imgcode"/></CardDescription>
@@ -42,14 +34,10 @@ export function SectionService(){
                     <CardContent>
                         <p>Card Content</p>
                     </CardContent>
-                    <CardFooter className="Flex justify-around">
-                        <Button>Github</Button>
-                        <Button>Sistema</Button>
-                    </CardFooter>
                 </Card>
             </div>
-            <div className="md:flex justify-around">
-                <Card>
+            <div className="md:flex mt-10 gap-10 justify-center">
+                <Card className="m-10">
                     <CardHeader>
                         <CardTitle>Card Title</CardTitle>
                         <CardDescription> <Image src={programming} alt="imagem codigos" width={300} height={300} className="imgcode"/></CardDescription>
@@ -57,12 +45,8 @@ export function SectionService(){
                     <CardContent>
                         <p>Card Content</p>
                     </CardContent>
-                    <CardFooter className="Flex justify-around">
-                        <Button>Github</Button>
-                        <Button>Sistema</Button>
-                    </CardFooter>
                 </Card>
-                <Card>
+                <Card className="m-10">
                     <CardHeader>
                         <CardTitle>Card Title</CardTitle>
                         <CardDescription> <Image src={programming} alt="imagem codigos" width={300} height={300} className="imgcode"/></CardDescription>
@@ -70,12 +54,8 @@ export function SectionService(){
                     <CardContent>
                         <p>Card Content</p>
                     </CardContent>
-                    <CardFooter className="Flex justify-around">
-                        <Button>Github</Button>
-                        <Button>Sistema</Button>
-                    </CardFooter>
                 </Card>
-                <Card>
+                <Card className="m-10">
                     <CardHeader>
                         <CardTitle>Card Title</CardTitle>
                         <CardDescription> <Image src={programming} alt="imagem codigos" width={300} height={300} className="imgcode"/></CardDescription>
@@ -83,10 +63,6 @@ export function SectionService(){
                     <CardContent>
                         <p>Card Content</p>
                     </CardContent>
-                    <CardFooter className="Flex justify-around">
-                        <Button>Github</Button>
-                        <Button>Sistema</Button>
-                    </CardFooter>
                 </Card>
             </div>
 
