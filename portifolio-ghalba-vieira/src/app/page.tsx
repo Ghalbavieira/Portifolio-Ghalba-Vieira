@@ -11,7 +11,7 @@ import { SectionService } from "@/components/SectionService/SectionService";
 import { Portifolio } from "@/components/Portifolio/Portifolio";
 
 export default function Home() {
-  const words = ["Desenvolvedora Front-End", "Apaixonada por tecnologias", "Criadora de soluções inovadoras"];
+  const words = ["Desenvolvedora Front-End", "Apaixonada por tecnologias", "Soluções inovadoras"];
 
 
 
@@ -35,7 +35,7 @@ export default function Home() {
           </div>
         </div>
         <div className="wrapper-img md:max-w-xl">
-          <Image src={programming} alt="imagem codigos" width={400} height={490} className="imgcode"/>
+          <Image src={programming} alt="imagem codigos" width={400} height={800} className="imgcode"/>
         </div>
       </section>
       <Faixa/>

@@ -6,13 +6,13 @@ export function Faixa(){
             <div className="text-container p-4">
             <h2>
                 <span className="line-multi text-cyan-200">Design - </span>
-                <span className="line-multi text-cyan-400">Moderno -</span>
+                <span className="line-multi text-cyan-300">Moderno -</span>
                 <span className="line-multi text-cyan-500">Responsivo -</span>
-                <span className="line-multi text-cyan-200">Desenvolvedora -</span>
-                <span className="line-multi color-2">Front-End -</span>
-                <span className="line-multi color-3">Criativa -</span>
-                <span className="line-multi color-1">Inovadora -</span>
-                <span className="line-multi color-3">Profissional </span>
+                <span className="line-multi text-cyan-600">Desenvolvedora -</span>
+                <span className="line-multi text-cyan-200">Front-End -</span>
+                <span className="line-multi text-cyan-300">Criatividade -</span>
+                <span className="line-multi text-cyan-400">Inovação -</span>
+                <span className="line-multi text-cyan-500">Profissional </span>
             </h2>
             </div>
         </section>
