@@ -87,6 +87,12 @@
   }
 }
 
+html{
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(135deg, rgba(var(--background-start-rgb), 1) 0%, rgba(var(--background-end-rgb), 1) 100%);
+}
 
 body{
   background-color: #1E2939;
@@ -109,7 +115,6 @@ body{
   display: inline;
 }
 
-
 .title{
   font-size: 1.5rem;
 }
@@ -118,7 +123,7 @@ body{
   position: relative;
   display: inline-block;
   opacity:6;
-  padding-bottom: 0.5rem; 
+   
 }
 
 .underline-effect::after {
@@ -139,20 +144,26 @@ body{
 /*Underline effect*/
 
 .wrapper-img {
-  height: 350px;
-  overflow: hidden;
-  border-radius: 10px;
+  background: url('../assets/images/doodles-mixed-round.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 600px;
+  height: 600px;
   position: relative;
 }
-
-.imgcode  {
-  object-fit: cover;
-  border: 5px solid transparent;
-  background: linear-gradient(white, white) padding-box, 
-              linear-gradient(45deg, #f06, #ffdd00) border-box;
-  border-top-right-radius: 40px;
-  border-bottom-left-radius: 40px;
-}
+/* 
+.imgcodeHero  {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  max-height: 700px;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease, border 0.3s ease;
+} */
 
 .wrapper-img:hover .imgcode  {
   border: 5px solid transparent;
@@ -165,7 +176,5 @@ body{
     font-size: 2.5rem;
   }
 
-  .wrapper-img {
-    width: 400px;
-  }
+
 }

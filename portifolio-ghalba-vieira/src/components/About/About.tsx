@@ -7,10 +7,10 @@ import "../About/about.css";
 
 export function AboutSection() {
     return (
-        <section className="bg-slate-200 text-center text-sky-900 pt-10 px-30">
-            <h2 className="title underline-effect mb-10"><strong>Sobre Mim</strong></h2>
-            <div className='flex justify-around content-center flex-wrap align-middle pb-20 px-4'>
-                <div className="text-center md:text-left break-words max-w-96 animate-fadeIn">
+        <section className="bg-slate-200 text-center text-sky-900 pt-10 px-30" id='about'>
+            <h2 className="title underline-effect mb-10 font-bold">Sobre Mim</h2>
+            <div className='flex flex-row justify-center align-middle pb-20 px-4 gap-10 md:gap-80 max-w-full flex-wrap md:flex-nowrap'>
+                <div className="text-center max-w-lg md:text-left break-words animate-fadeIn">
                     <h3 className="my-3 text-2xl text-teal-600"><strong>Quem sou eu?</strong></h3>
                     <p className="my-1">Sou <strong>Desenvolvedora Front-End</strong> com experiência no desenvolvimento de soluções web, incluindo sites, landing pages e e-commerces. Tenho forte interesse em me especializar ainda mais em Front-End, aprimorando minhas habilidades em <u>Inteligência Artificial e acessibilidade</u>. Também pretendo expandir meus conhecimentos em back-end, e estou constantemente em busca de novos desafios para aprimorar minhas habilidades.
                     </p>
@@ -18,7 +18,7 @@ export function AboutSection() {
 
                     <Button className='my-4 p-5'>Descubra Mais</Button>
                 </div>
-                <div className="my-3 max-w-96 animate-fadeIn text-center">
+                <div className="my-3 animate-fadeIn text-center">
                     <h4>Linguagens e Tecnologias:</h4>
                     <div className="flex-auto justify-around">
                         <TooltipProvider>

@@ -4,7 +4,6 @@ header{
 
 
 a:hover {
-    color: rgb(10 71 170);
+    color: rgb(128, 165, 225);
     border-radius: 5px;
-    font-weight: 600;
 }
