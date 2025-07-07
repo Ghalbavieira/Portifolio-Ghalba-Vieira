@@ -1,19 +1,34 @@
 import Link from "next/link";
-import Image from "next/image";
 import { SocialIcons } from "@/components/IconsSocial/SocialIcons";
 
 export function Contato() {
-    return (
-        <section className="bg-slate-400 text-center text-sky-900 pt-10 px-30" id='contato'>
-            <h2 className="title underline-effect mb-10 font-bold">Contato</h2>
-            <div className='flex flex-col items-center justify-center gap-4'>
-                <p className="text-lg">Gostou do meu trabalho? Vamos conversar!</p>
-                <p className="text-md">Você pode me encontrar nas redes sociais ou enviar um e-mail.</p>
-                <Link href="mailto:ghalba.vieira@example.com" className='my-4 p-5'>Enviar Mensagem</Link>
-            </div>
-            <div className="flex justify-center items-center gap-4 mt-6">
-               <SocialIcons/>
-            </div>
-        </section>
-    );
+  return (
+    <section
+      id="contato"
+      className="bg-sky-900 text-white py-16 px-6 sm:px-12 lg:px-24 text-center"
+    >
+      <h2 className="text-3xl font-extrabold underline underline-offset-8 mb-8">
+        Contato
+      </h2>
+
+      <p className="text-lg max-w-xl mx-auto mb-4">
+        Gostou do meu trabalho? Vamos conversar!
+      </p>
+      <p className="text-md max-w-md mx-auto mb-8">
+        Você pode me encontrar nas redes sociais ou enviar <br /> um e-mail diretamente para
+      </p>
+
+      <Link
+        href="mailto:ghalba.vieira@example.com"
+        className="inline-block bg-white text-sky-900 font-semibold rounded-md px-8 py-3 hover:bg-sky-100 transition"
+        aria-label="Enviar email para Ghalba Vieira"
+      >
+        ghalbavieira@gmail.com
+      </Link>
+
+      <div className="flex justify-center items-center gap-6 mt-10">
+        <SocialIcons />
+      </div>
+    </section>
+  );
 }
